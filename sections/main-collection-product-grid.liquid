@@ -194,11 +194,11 @@
 
             {%- if paginate.pages > 1 -%}
               {% if section.settings.scroll_enabled %}
-                <div id="Huratips-Pagination">
+                <span id="Huratips-Pagination">
                 {%- if paginate.next -%}
                   <a href="{{ paginate.next.url }}">Load More</a>
                 {%- endif -%}
-              </div>
+              </span>
             {% else %}
               {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}
