@@ -3609,3 +3609,16 @@ div#Huratips-Pagination {
     text-align: center;
 }
 
+span#Huratips-Pagination {
+  text-align: center;
+  display: inherit;
+  margin-top: 40px;
+}
+span#Huratips-Pagination a {
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
